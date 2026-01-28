@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # --- KONFIGURASI HALAMAN ---
-st.set_page_config(page_title="Nasi Goreng Ayah", layout="centered")
+st.set_page_config(page_title="Nasgor", layout="centered")
 
 # --- HEADER (Sesuai Desain Figma Kamu) ---
 st.title("📊 Dashboard Penjualan Nasi Goreng Ayah")
@@ -70,4 +70,5 @@ if st.button("Dengarkan Pesanan"):
         st.audio(audio_bytes, format='audio/mp3')
         st.success("Klik tombol play di atas untuk mendengar pesanan!")
     else:
+
         st.error("Silakan tempel teks pesanan dulu!")
