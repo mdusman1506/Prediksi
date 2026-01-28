@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 st.set_page_config(page_title="Nasgor", layout="centered")
 
 # --- HEADER (Sesuai Desain Figma Kamu) ---
-st.title("📊 Dashboard Penjualan Nasi Goreng Ayah")
+st.title("📊 Dashboard Penjualan Nasgor")
 st.write("Aplikasi untuk memprediksi stok porsi terjual.")
 
 # --- INPUT DATA (Sesuai Desain Figma Kamu) ---
@@ -72,3 +72,4 @@ if st.button("Dengarkan Pesanan"):
     else:
 
         st.error("Silakan tempel teks pesanan dulu!")
+
